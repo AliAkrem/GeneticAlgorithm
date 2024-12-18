@@ -153,7 +153,7 @@ La méthode evolve  orchestre le processus évolutif :
 
 ## Fonction Objectif
 
-La fonction objective_function(x) définit le problème d'optimisation à résoudre. Elle combine trois éléments :
+La fonction objectif_function(x) définit le problème d'optimisation à résoudre. Elle combine trois éléments :
 -  Une constante (5)
 -  Un terme sinusoïdal (0.5 * sin(2x))
 -  Un terme quadratique (0.3 * (x-2)²)
