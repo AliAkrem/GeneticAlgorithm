@@ -2,6 +2,9 @@
 
 Les algorithmes génétiques (AG) constituent une sous-catégorie majeure des algorithmes évolutionnaires. Inspirés par la génétique et les mécanismes d’évolution biologique, les AG utilisent des concepts tels que les chromosomes, les croisements et les mutations pour modéliser les solutions potentielles sous forme d’une population. Ces solutions évoluent au fil des générations, les plus aptes étant sélectionnées pour créer de nouvelles solutions. Les AG se distinguent par leur flexibilité et leur capacité à s’adapter à une grande variété de problèmes, allant de l’optimisation combinatoire à la recherche de solutions dans des environnements complexes. En tant qu’élément fondamental des AE, les algorithmes génétiques démontrent comment des processus biologiques peuvent être transformés en outils puissants pour résoudre des défis technologiques.
 
+![AE](https://github.com/user-attachments/assets/a2f686d0-bf3a-441e-a396-072cc605caef)
+
+
 ---
 
 ## Classe GeneticAlgorithm
@@ -163,13 +166,16 @@ def objectif_function(x):
     return 5 + 0.5 * np.sin(2 * x) + 0.3 * (x - 2)**2
 ```
 
+![objectif_function](https://github.com/user-attachments/assets/543d5c5e-0d80-41b8-a595-058f22d20515)
+
+
 
 ## Utilisation et Paramétrage
 
 Pour utiliser cet algorithme, 
 Définir les solutions de base :
 
-```
+```py
 # Initial base solutions
 base_solutions = [0.5, 2.2, 4.0, 4.2]
 base_values = [objectif_function(x) for x in base_solutions]
@@ -194,4 +200,8 @@ Les paramètres clés à ajuster sont :
 -  Le nombre de générations : détermine le temps d'optimisation
 
 ## Résultats et Interprétation
+
+
+![final_result](https://github.com/user-attachments/assets/4c4c4e08-06da-43e4-942a-a2f7c6dea25c)
+
 
